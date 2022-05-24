@@ -2,7 +2,7 @@ package homework.stone_sort;
 
 import java.util.Arrays;
 
-public class Main {
+public class MySort {
     public static void main(String[] args) {
         int[] array1 = {20, 333, 14, 1, 7};
         int[] array2 = {1, 2, 3};
@@ -10,7 +10,7 @@ public class Main {
         stoneSort(array2);
     }
 
-    private static void stoneSort(int[] array) {
+    public static void stoneSort(int[] array) {
         boolean isChange = false; // was there a change
         int temp; // temporary storage
         int countIter = 0; // how many times passed through the array
