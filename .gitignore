@@ -1,2 +1,7 @@
 # Project exclude paths
 /out/
+/target/
+.
+*.iml
+pom.xml
+.DS_Store
