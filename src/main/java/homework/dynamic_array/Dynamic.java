@@ -10,8 +10,8 @@ public interface Dynamic {
     void set(int index, int data);
     int get(int index);
     void clear();
-    void contains(int data);
-    void isEmpty();
+    boolean contains(int data);
+    boolean isEmpty();
 
     int size();
 

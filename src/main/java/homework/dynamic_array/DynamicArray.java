@@ -135,8 +135,9 @@ public class DynamicArray implements Dynamic {
      */
     @Override
     public void clear() {
-        int[] temp = new int[size];
+        int[] temp = new int[size]; // size = 4;
         array = temp;
+        count = 0;
     }
 
     /**
@@ -145,19 +146,22 @@ public class DynamicArray implements Dynamic {
      * @param data is data
      */
     @Override
-    public void contains(int data) {
+    public boolean contains(int data) {
         for (int idx = 0; idx < size; idx++) {
             if (array[idx] == data) {
-                System.out.println("array contains the element: " + data);
-                return;
+//                System.out.println("array contains the element: " + data);
+                return true;
             }
-            System.out.println("array does not contain an element: " + data);
+//            System.out.println("array does not contain an element: " + data);
         }
+        return false;
     }
 
     @Override
-    public void isEmpty() {
-        System.out.println(count == 0 ? "array is empty" : "array contains " + (count - 1) + "elements");
+    public boolean isEmpty() {
+        return count == 0;
+
+//        System.out.println(count == 0 ? "array is empty" : "array contains " + (count - 1) + "elements");
     }
 
     @Override
