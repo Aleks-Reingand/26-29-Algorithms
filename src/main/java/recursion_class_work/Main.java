@@ -26,7 +26,7 @@ public class Main {
                 System.out.println("Now count = " + count);
             } else {
                 count = countConsonantRecursion(str, n - 1);
-                count += isConsonant(str.charAt(n-1)) ? 1 : 0; //inserted summation of values count
+                count += isConsonant(str.charAt(n-1)) ? 1 : 0; //inserted summation of values count (count++)
                 System.out.println("Now count = " + count);
             }
 
