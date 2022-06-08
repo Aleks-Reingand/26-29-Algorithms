@@ -23,7 +23,7 @@ public class Main {
         int a = 0;
         int i;
         int j;
-        for (i = 0; i < n; i++) { // cost = 3 times = n
+        for (i = 0; i < n; i++) { // cost = 3 times = n + 1
             for (j = n; j > i; j--) { // cost = 3 times = n - 1
                 a = a + i + j;
             }
@@ -81,3 +81,4 @@ public class Main {
         }
     } // worst (3+n)*(4+n) = O(n^2), best (3+n)*(4+log(n)) = O(n log n)
 }
+
