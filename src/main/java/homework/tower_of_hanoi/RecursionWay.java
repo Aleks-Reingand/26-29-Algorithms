@@ -2,7 +2,7 @@ package homework.tower_of_hanoi;
 
 public class RecursionWay {
     public static void main(String[] args) {
-        int countOfDisk = 2;
+        int countOfDisk = 5;
         String source = "source";
         String helper = "helper";
         String destination = "destination";
@@ -18,6 +18,7 @@ public class RecursionWay {
         if (countOfDisk == 0) {
             return;
         }
+
         towerOfHanoiRecursion(countOfDisk - 1, source, destination, helper);
         printMove(countOfDisk, source, destination);
         towerOfHanoiRecursion(countOfDisk - 1, helper, source, destination);

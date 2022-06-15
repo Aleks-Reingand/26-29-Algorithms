@@ -35,7 +35,7 @@ public class IterativeWay {
         String destination = "destination";
 
         for (int i = 1; i <= moves; i++) {
-            if (i % 3 == 1) { // source to destination
+            if (i % 3 == 1) { // source to destination 4%3=3+1
                 helperMoveDiskBetweenTwoPoles(sourceStack, destinationStack, source, destination);
             } else if (i % 3 == 2) { // source to helper
                 helperMoveDiskBetweenTwoPoles(sourceStack, helperStack, source, helper);

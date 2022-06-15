@@ -45,8 +45,8 @@ public class Main {
         // AbBc 1
         int count = 0;
         if (n == 1) {
-            count = isConsonant(str.charAt(0)) ? 1 : 0;
             System.out.println("Now count = " + count);
+            return isConsonant(str.charAt(0)) ? 1 : 0;
         }
 
         if (isConsonant(str.charAt(n - 1))) {

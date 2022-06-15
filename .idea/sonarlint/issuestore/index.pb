@@ -7,5 +7,3 @@ b
 2src/main/java/homework/binary_search/MySearch.java,b\8\b825f79a1180e2bfa671e9ec09c92cde5d92e426
 b
 2src/main/java/homework/catalog_and_files/Main.java,7\5\75a1a57aea191cac1f255918f3a7bca806424644
-i
-9src/main/java/lecture/recursion_stack_quicksort/Main.java,7\e\7e32e3bba9844be27713b6b13629c6c3182eecac
