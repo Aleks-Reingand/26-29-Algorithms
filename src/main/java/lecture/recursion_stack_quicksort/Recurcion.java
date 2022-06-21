@@ -1,9 +1,7 @@
 package lecture.recursion_stack_quicksort;
 
 
-import java.util.Stack;
-
-public class Main {
+public class Recurcion {
     public static void main(String[] args) {
 
 //        Stack stack = new Stack<>();

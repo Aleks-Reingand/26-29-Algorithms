@@ -3,7 +3,7 @@ package lecture.quicksort_indirect_recursion;
 
 import java.util.Arrays;
 
-public class Main {
+public class QuickSort {
     public static void main(String[] args) {
         // quickSort(array, start, end): void -> method for sort
         // partition(array, start, end): int indexPivot -> helper method for rearrange array elements form pivot

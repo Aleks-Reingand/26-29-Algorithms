@@ -1,6 +1,6 @@
 package lecture.time_complexity;
 
-public class Main {
+public class TimeComplexity {
 
     public static void main(String[] args) {
         // 1 единицу времени на арифм. и логические операции
