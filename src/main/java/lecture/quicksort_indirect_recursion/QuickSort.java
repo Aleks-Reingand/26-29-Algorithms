@@ -9,6 +9,10 @@ public class QuickSort {
         // partition(array, start, end): int indexPivot -> helper method for rearrange array elements form pivot
         // swap(array, first, second): void -> helper method for swapping two elements
 
+        // Best O(n log n)
+        // Aver O(n log n)
+        // Worst O(n^2)
+
         int[] array = {39, 22, 2, 55, 6, 20};
         quickSort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
