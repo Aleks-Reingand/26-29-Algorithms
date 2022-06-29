@@ -43,6 +43,41 @@ public class MergeSort {
     }
 
     private static void merge(int[] arr, int[] leftArr, int[] rightArr) {
+        int leftArrLength = leftArr.length;
+        int rightArrLength = rightArr.length;
 
+        // контролируем индексы подмассивов
+        int leftIndex = 0;
+        int rightIndex = 0;
+
+        // контролируем индекс в основном массиве
+        int arrIndex = 0;
+
+        while (leftIndex < leftArrLength && rightIndex < rightArrLength) {
+            if (leftArr[leftIndex] < rightArr[rightIndex]) { // сравниваем элемент в левом и правом подмассиве
+                arr[arrIndex] = leftArr[leftIndex]; // если условие верно, то элемент в левом меньше, сохраняем его
+                                                    // в 0 ячейку основного массива
+                leftIndex++;
+                arrIndex++;
+            } else {
+                arr[arrIndex] = rightArr[rightIndex];
+                rightIndex++;
+                arrIndex++;
+            }
+        }
+
+        // копируем элементы если остались из левого
+        while (leftIndex < leftArrLength) {
+            arr[arrIndex] = leftArr[leftIndex];
+            leftIndex++;
+            arrIndex++;
+        }
+
+        // копируем элементы из правого
+        while (rightIndex < rightArrLength) {
+            arr[arrIndex] = rightArr[rightIndex];
+            rightIndex++;
+            arrIndex++;
+        }
     }
 }
