@@ -2,9 +2,9 @@ package lecture.queue;
 
 public class Student {
     private String name;
-    private double level; // 1.1 -> 1.2
+    private int level; // 1.1 -> 1.2
 
-    public Student(String name, double level) {
+    public Student(String name, int level) {
         this.name = name;
         this.level = level;
     }
@@ -21,7 +21,7 @@ public class Student {
         return level;
     }
 
-    public void setLevel(double level) {
+    public void setLevel(int level) {
         this.level = level;
     }
 
