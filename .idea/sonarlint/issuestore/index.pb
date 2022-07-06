@@ -21,5 +21,3 @@ Asrc/main/java/lecture/dynamic_programming/DynamicProgramming.java,6\3\6379990b
 .src/main/java/lecture/mergesort/MergeSort.java,0\8\08a4c325471b3c12ea711c7da9793875a5751d6a
 g
 7src/main/java/lecture/stack_and_queue/SpecialStack.java,5\f\5f487c77ed47034574fc5a5ef58e8a0ca2019d2e
-h
-8src/main/java/lecture/stack_and_queue/StackAndQueue.java,2\9\29db519b652ae2a2c52fa27bfac922fbdbd0d023
