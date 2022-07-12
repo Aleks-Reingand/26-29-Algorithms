@@ -1,8 +1,4 @@
 
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-D
-26-29-Algorithms.iml,0\1\01639aee68a77389801e5c8f27fb9d57740bd687
 b
 2src/main/java/homework/binary_search/MySearch.java,b\8\b825f79a1180e2bfa671e9ec09c92cde5d92e426
 b
@@ -21,3 +17,11 @@ Asrc/main/java/lecture/dynamic_programming/DynamicProgramming.java,6\3\6379990b
 .src/main/java/lecture/mergesort/MergeSort.java,0\8\08a4c325471b3c12ea711c7da9793875a5751d6a
 g
 7src/main/java/lecture/stack_and_queue/SpecialStack.java,5\f\5f487c77ed47034574fc5a5ef58e8a0ca2019d2e
+h
+8src/main/java/lecture/stack_and_queue/StackAndQueue.java,2\9\29db519b652ae2a2c52fa27bfac922fbdbd0d023
+g
+7src/main/java/lecture/my_linkedlist/MainLinkedList.java,1\7\1747d23333235641ad5e28f56545b469dbe86be9
+]
+-src/main/java/lecture/my_linkedlist/Node.java,2\9\29f94db63ef105f4b4c0272256d0a9c4b63b53db
+X
+(src/main/java/lecture/queue/Student.java,4\6\4635df8a2523da97073bb151af469e47ae85fa67
